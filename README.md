@@ -1,6 +1,6 @@
 # WiFiEsp
 
-This library is a modified version of the library [WifiEsp](https://github.com/bportaluri/WiFiEsp) by Bruno Portaluri.
+This library is a modified version of the library [WiFiEsp](https://github.com/bportaluri/WiFiEsp) by Bruno Portaluri.
 With an ESP8266 board, WiFiEsp library allows an Arduino board to connect to the internet.
 It can serve as either a server accepting incoming connections or a client making outgoing ones.
 The WiFiEsp library is very similar to the Arduino [WiFi](http://www.arduino.cc/en/Reference/WiFi) and [Ethernet](http://www.arduino.cc/en/Reference/Ethernet) libraries, and many of the function calls are the same. 
@@ -102,4 +102,4 @@ The UDP class enables UDP message to be sent and received.
 
 ##Contributing
 
-If you discover a bug or would like to propose a new feature, please open a new [WifiEsp-danyboard/issue](https://github.com/Gius-8/WiFiEsp-danyboard/issues) or [WifiEsp/issue](https://github.com/bportaluri/WiFiEsp/issues).
+If you discover a bug or would like to propose a new feature, please open a new [WiFiEsp-danyboard/issue](https://github.com/Gius-8/WiFiEsp-danyboard/issues) or [WiFiEsp/issue](https://github.com/bportaluri/WiFiEsp/issues).
