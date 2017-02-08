@@ -25,7 +25,7 @@ void setup()
 {
   Serial.begin(115200);   	// initialize serial for debugging
   WiFi.on();				// activates the Wifi module
-  WiFi.init(&Serial5);      // initialize Wifi module
+  WiFi.init(&wifi);      // initialize Wifi module
   
   pinMode(led, OUTPUT);
 

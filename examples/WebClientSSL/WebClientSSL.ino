@@ -20,7 +20,7 @@ void setup()
 {
   Serial.begin(115200);   	// initialize serial for debugging
   WiFi.on();				// activates the Wifi module
-  WiFi.init(&Serial5);      // initialize Wifi module
+  WiFi.init(&wifi);      // initialize Wifi module
 
   // check for the presence of the shield
   if (WiFi.status() == WL_NO_SHIELD) {

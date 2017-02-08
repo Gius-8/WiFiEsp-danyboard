@@ -19,13 +19,13 @@
 void setup() {
   Serial.begin(115200);     // initialize serial for debugging
   WiFi.on();        // activates the Wifi module
-  WiFi.init(&Serial5);      // initialize Wifi module
+  WiFi.init(&wifi);      // initialize Wifi module
 }
 
 void loop() {
   while (Serial.available())
-    Serial5.write(Serial.read());
+    wifi.write(Serial.read());
 
-  while (Serial5.available())
-    Serial.write(Serial5.read());
+  while (wifi.available())
+    Serial.write(wifi.read());
 }

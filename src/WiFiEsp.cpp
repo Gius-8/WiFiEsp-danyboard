@@ -34,7 +34,7 @@ WiFiEspClass::WiFiEspClass()
 void WiFiEspClass::init(Stream *espSerial)
 {
     LOGINFO(F("Initializing ESP module"));
-	Serial5.begin(115200);    // initialize serial for ESP module
+	wifi.begin(115200);    // initialize serial for ESP module
 	pinMode(38, OUTPUT);
 	EspDrv::wifiDriverInit(espSerial);
 }
