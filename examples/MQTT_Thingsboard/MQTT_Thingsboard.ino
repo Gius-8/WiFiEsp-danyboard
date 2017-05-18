@@ -22,7 +22,7 @@ DHT dht(DHTPIN, DHTTYPE);
 char thingsboardServer[] = "demo.thingsboard.io";
 
 char ssid[] = "YOUR_SSID";       // your network SSID (name)
-char pass[] = "YORU_PASSWORD";           // your network password
+char pass[] = "YOUR_PASSWORD";           // your network password
 int status = WL_IDLE_STATUS;
 
 // Initialize the Ethernet client object
