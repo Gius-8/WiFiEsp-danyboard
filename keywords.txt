@@ -6,13 +6,12 @@
 # Library (KEYWORD3)
 #######################################
 
-WiFiEsp	KEYWORD3
-
 
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
 
+WiFiEsp	KEYWORD1
 WiFiEspClient	KEYWORD1
 WiFiEspServer	KEYWORD1
 WiFiEspUDP	KEYWORD1
